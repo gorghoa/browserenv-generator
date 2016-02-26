@@ -1,0 +1,33 @@
+{
+  "name": "env-publisher",
+  "version": "0.0.1",
+  "description": "Generate a file from environment variables",
+  "main": "index.js",
+  "dependencies": {
+    "yargs": "^4.2.0"
+  },
+  "bin": {
+    "browserenv-generator": "./cli.js"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "typescript": "^1.8.2",
+    "typings": "^0.6.8"
+  },
+  "scripts": {
+    "test": "mocha dist/test/index.spec.js",
+    "compile": "tsc",
+    "typings": "typings install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gorghoa/env-publisher.git"
+  },
+  "author": "gorghoa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gorghoa/env-publisher/issues"
+  },
+  "homepage": "https://github.com/gorghoa/env-publisher#readme"
+}
